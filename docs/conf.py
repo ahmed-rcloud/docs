@@ -19,7 +19,7 @@
 
 project = 'Researchers Cloud'
 copyright = '2026, Medicia Researchers Inc.'
-author = Medicia Research Inc.'
+author = 'Medicia Research Inc.'
 
 # The full version, including alpha/beta/rc tags
 release = '1.0.0'
