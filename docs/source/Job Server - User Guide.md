@@ -25,11 +25,11 @@ The client must login to MediciaSAFELY with their GitHub account: https://demo.m
 
 Then go to the login page and click the login button. You will be directed to the GitHub login page. Then you will be asked for authorizing MediciaSAFELY to login with your GitHub account. Just click the green `Authorize ...` button.
 
-![](1.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/1.png)
 
 After authorizing the app, you will be redirected to the server with successful login. In the next image, the icon of the GitHub account appears at the top-right.
 
-![](2.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/2.png)
 
 ### 2. Client Creates and Submits an Application/Project
 
@@ -37,21 +37,21 @@ Once the client logins to MediciaSAFELY, then the next step is to create an appl
 
 > If you are struggling creating an application, just contact the MediciaSAFELY team to create a project for you.
 
-![](user-dropmenu.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/user-dropmenu.png)
 
 Click the `Applications` option which goes to this page: https://demo.mediciaresearch.cloud/applications. THis page shows a list of applications that the user started.
 
-![](create-application.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/create-application.png)
 
 In the Applications page, click the `Start a new project` button which goes to https://demo.mediciaresearch.cloud/apply. At the bottom of this page, click the `Start now` button to start creating an application.
 
-![](application-apply.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/application-apply.png)
 
 Follow the steps until the application is submitted. Pay attention to the `Study name` value because it is the project name that the client will later use. This name what appears on the dashboard too.
 
 Once the application is submitted, just wait for a MediciaSAFELY admin to approve it for you. The status of the applications appears in the https://demo.mediciaresearch.cloud/applications page. When its status changes to `Approved Fully`, then the application is approved by an admin and ready to use. Now, you have a MediciaSAFELY project.
 
-![](applications-status.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/applications-status.png)
 
 ### 3. Ask for a Backend and Organization
 
@@ -63,7 +63,7 @@ The URL for the organization has this format `https://demo.mediciaresearch.cloud
 
 The user can check the backend he/she is a member by visiting this page: https://demo.mediciaresearch.cloud/status. For example, the next image shows that the current user is a member of the `rcdemo2` backend.
 
-![](user-backend.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/user-backend.png)
 
 ### 4. Ask for Adding Project in the Organization
 
@@ -84,11 +84,11 @@ For a regular user with the role `Project Coordinator` in the project, then this
 
 To do that, the first step is to go to the organization page. In the organization page, there will be a list of projects in this organization. For example, the next image shows that the `MediciaAIOrg2` organization has 3 projects.
 
-![](org-page.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/org-page.png)
 
 For example, the current user is a member only in the `FwongStudy` project. After clicking this project, it goes to the project's page: https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy
 
-![](project-details-page.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/project-details-page.png)
 
 Given that the current user has the `Project Coordinator` role, then this user can edit the members. Just click the `Settings` button which goes to this page (https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy/settings) as in the next image. There the user can change the project's settings including:
 
@@ -96,11 +96,11 @@ Given that the current user has the `Project Coordinator` role, then this user c
 2. Editing the members by adding or removing members.
 3. Change the role of the members of the project.
 
-![](user-add-member-to-project.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/user-add-member-to-project.png)
 
 Let's click the `Edit` button besides the `fwong07` user. This goes to the user's page under the `FwongStudy` project. Select which roles to be assigned to the user and click the `Save` button.
 
-![](edit-project-member.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/edit-project-member.png)
 
 
 
@@ -135,17 +135,17 @@ The regular user can now login with their GitHub account and visit the homepage 
 
 Scroll down and click the `Add a New Workspace` button. 
 
-![](logged-user-without-role.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/logged-user-without-role.png)
 
 Clicking this button forwards the user to the its organization. For example, if the user is a member of the `mediciaaiorg2` organization, then it will be forwarded to this page: https://demo.mediciaresearch.cloud/mediciaaiorg2
 
-![](org-page.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/org-page.png)
 
 Click on the target project. For example, `FwongStudy` https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy. This forwards to the project's details page where all project's workspaces are listed.
 
 If the user is authorized to create workspaces, then it will find the `Create a new workspace ↗`. button there. Click on it: https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy/new-workspace/
 
-![](project-details-page.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/project-details-page.png)
 
 The user will be forwarded to a page to create a new workspace. Enter the following information into the workspace form:
 
@@ -155,17 +155,17 @@ The user will be forwarded to a page to create a new workspace. Enter the follow
 
 Then click the `Create` button.
 
-![](create-new-workspace.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/create-new-workspace.png)
 
 After the workspace is created, then go back to the project page where you will find the new workspace listed: https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy
 
 Then click the created workspace: https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy/project2workspace
 
-![](workspace-details-page.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/workspace-details-page.png)
 
 Email notifications are not enabled by default. To get notifications about all the jobs in this workspace, click on the `Enable notifications` button. Now, the button text becomes `Disable notifications`.
 
-![](enable-notifications.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/enable-notifications.png)
 
 To archive the workspace, click the `Archive workspace` button.
 
@@ -176,9 +176,9 @@ To grant the server access to the GitHub repository, you must provide the GitHub
 1. Through the user's settings page. There is an input field to accept the PAT. After clicking the `Save` button, the PAT will be saved permanently to the database. In this case, the user enters the PAT only once and use it many times.
    The user can also change the email address to which notifications are sent.
    
-   ![](user-settings.png)
+   ![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/user-settings.png)
 2. If the user prefers not to keep the PAT stored in the database, then it can enter it in the workspace details page. There is an input field that accepts the PAT. This PAT is used only once and not saved in the database. But the user have to enter the PAT before running jobs.
-   ![](workspace-details-page.png)
+   ![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/workspace-details-page.png)
 
 As a summary, if the PAT is not saved in the database, then the user have to enter it each time a job is to be run. 
 
@@ -188,7 +188,7 @@ Once the PAT is given, then the user can click the `Run Jobs` button in the work
 
 This opens this page (https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy/project2workspace/run-jobs/) which lists all the actions in the project according to the `project.yaml` file in the GitHub repository.
 
-![](run-jobs.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/run-jobs.png)
 
 Click the `Run` button at the left side of the actions you would like to run. These buttons should be turned into green.
 
@@ -202,21 +202,21 @@ To check the status of the submitted jobs, go to the workspace logs page. For ex
 
 Once the jobs are completed successfully, go back to the workspace page. Under the `Releases` section, click the `Released Outputs` page. There you will find the list of released files out of the completed jobs.
 
-![](workspace-details-page.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/workspace-details-page.png)
 
 For example, this is the list of outputs in the `genetic` workspace: https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy/genetic/releases. You can view the released outputs online or download them.
 
-![](released-outputs.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/released-outputs.png)
 
 ## List the Released Files
 
 The first row in the workspace releases has the most recent versions of all the released files in the workspace. Clicking on the `List` button lists all the released files. 
 
-![](all-released-files.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/all-released-files.png)
 
 By clicking the `List` button in the other rows, it only shows the individual file in this release.
 
-![](all-released-files-and-individual.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/all-released-files-and-individual.png)
 
 Click the `Delete` button besides each file to delete it from the workspace.
 
@@ -224,31 +224,31 @@ Click the `Delete` button besides each file to delete it from the workspace.
 
 Click on the `View` button besides each release to go to the release page. This is an example. The URL for this release is https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy/genetic/releases/01G76141JS40HTVN8XECCC87CC. The code at the end of the URL `01G76141JS40HTVN8XECCC87CC` represents the release ID.
 
-![](view-released-file.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/view-released-file.png)
 
 At the bottom-left side, there will be a list of files in this release. This release has a single file named `high_privacy/workspaces/genetic/output/genes_histogram.png`. Its URL is https://demo.mediciaresearch.cloud/api/v2/releases/file/01G76142EVABYX5HC8JDJQ1FP2. The code at the end of the URL `01G76142EVABYX5HC8JDJQ1FP2` represents the file ID. Click on the file to view it at the bottom-right area. 
 
-![](click-to-view-released-file.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/click-to-view-released-file.png)
 
 To view the file in a new tab, just click the link above it.
 
-![](view-released-file-new-tab.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/view-released-file-new-tab.png)
 
 ## Download the Released Files
 
 In the workspace releases page, click the `Download all` button to download all the files in a release.
 
-![](all-released-files-and-individual.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/all-released-files-and-individual.png)
 
 After clicking the `Download all` button, then all the files in the release will be added to a compressed file and you will be asked to choose the location to save it.
 
-![](download-released-files.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/download-released-files.png)
 
 Once downloaded, just decompress the file. Follow the chain of folders until you open the `output` folder where the files exist. Then open the files locally on your machine.
 
 We can also download a specific file by clicking on the `View` button. There will be a `Download all` button to download the files in this release. 
 
-![](click-to-view-released-file.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/click-to-view-released-file.png)
 
 ## Event Log
 
@@ -260,11 +260,11 @@ At the top-right corner, click the `Event Log` link to view the logs. This page 
 4. The requested action selected by the user. The actions are defined in the `project.yaml` file of the research study.
 5. The time at which the job started.
 
-![](event-log.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/event-log.png)
 
 We can access this page also from the the homepage of the server (https://demo.mediciaresearch.cloud). As in the next image, there is a list of the latest 5 job requests across all workspaces of the user. Below the list, there is a button named `View all logs`. 
 
-![](recent-5-jobs.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/recent-5-jobs.png)
 
 Clicking on this link goes to the events log page (https://demo.mediciaresearch.cloud/event-log).
 
@@ -275,11 +275,11 @@ Click on the `Show jobs` button at the right of each row to show the jobs handle
 3. Time consumed to complete the action.
 4. A message indicating the status of the action. 
 
-![](show-jobs.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/show-jobs.png)
 
 Also click the `View` button in gray to see more information about the job request. For example, click the `View` button of the job request with ID `lmu6z6wzhhdvqkgj` goes to this page: https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy/test_workspace/243/lmu6z6wzhhdvqkgj. 
 
-![](job-request-description1.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/job-request-description1.png)
 
 This page has 3 main sections:
 
@@ -287,7 +287,7 @@ This page has 3 main sections:
 2. Config: Configuration of the job. 
 3. Timings.
 
-![](job-request-description.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/job-request-description.png)
 
 The last entry in the `Config` section ([243 by ahmedfgad](https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy/test_workspace/243/)) is a link to the job request. This is the page of the job request with ID `243`. 
 
@@ -297,15 +297,15 @@ At the top, there are 3 buttons:
 2. `View project.yaml`: A link to view the `project.yaml` file in the GitHub repository.
 3. `Cancel`: If the job request is still in progress, click on this button to cancel it. This button is disabled because the job request is already handled.
 
-![](job-request-page.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/job-request-page.png)
 
 Down in the page, there is a list of the jobs in this job request. There is also a button called `Show project.yaml` to view the `project.yaml` file.
 
-![](job-request-page2.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/job-request-page2.png)
 
 Just click this button to view the `project.yaml` file in the page.
 
-![](view project YAML file.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/view project YAML file.png)
 
 ### Filter the Logs
 
@@ -316,7 +316,7 @@ There are 2 inputs fields in the events log page:
 
 Just enter the value and click on the button at the right side of the input field. For example, the next image shows the result of filtering the jobs whose action is `genetic`.
 
-![](filter-logs.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/filter-logs.png)
 
 There are 4 dropdown menus that can be used to filter the actions. From left to right, the menus are:
 
@@ -329,11 +329,11 @@ There are 4 dropdown menus that can be used to filter the actions. From left to 
 
 The `Event Log` link shows the logs of all jobs across all workspaces. To only view the logs of a specific workspace, just visit the workspace page.
 
-![](workspace-details-page.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/workspace-details-page.png)
 
 Below the workspace name, click the `View logs` button. It shows the logs for the current workspace only. Everything else is similar to what explained previously.
 
-![](workspace-logs.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/workspace-logs.png)
 
 ## User Roles
 
@@ -341,8 +341,8 @@ The user can view the members of the project and all of their roles from the pro
 
 Note that the `Repos` section shows the GitHub repositories associated with all the workspaces existing in this project.
 
-![](project-details-page.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/project-details-page.png)
 
 Down in this page, there is a `Researchers` section where the members and their roles are listed.
 
-![](users-roles.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/users-roles.png)
