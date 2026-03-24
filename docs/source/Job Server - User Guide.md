@@ -305,7 +305,7 @@ Down in the page, there is a list of the jobs in this job request. There is also
 
 Just click this button to view the `project.yaml` file in the page.
 
-![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/view project YAML file.png)
+![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/viewprojectYAMLfile.png)
 
 ### Filter the Logs
 
