@@ -86,11 +86,11 @@ To do that, the first step is to go to the organization page. In the organizatio
 
 ![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/org-page.png)
 
-For example, the current user is a member only in the `FwongStudy` project. After clicking this project, it goes to the project's page: https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy
+For example, the current user is a member only in the `MyStudy` project. After clicking this project, it goes to the project's page: https://demo.mediciaresearch.cloud/mediciaaiorg2/MyStudy
 
 ![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/project-details-page.png)
 
-Given that the current user has the `Project Coordinator` role, then this user can edit the members. Just click the `Settings` button which goes to this page (https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy/settings) as in the next image. There the user can change the project's settings including:
+Given that the current user has the `Project Coordinator` role, then this user can edit the members. Just click the `Settings` button which goes to this page (https://demo.mediciaresearch.cloud/mediciaaiorg2/MyStudy/settings) as in the next image. There the user can change the project's settings including:
 
 1. Project name
 2. Editing the members by adding or removing members.
@@ -98,7 +98,7 @@ Given that the current user has the `Project Coordinator` role, then this user c
 
 ![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/user-add-member-to-project.png)
 
-Let's click the `Edit` button besides the `fwong07` user. This goes to the user's page under the `FwongStudy` project. Select which roles to be assigned to the user and click the `Save` button.
+Let's click the `Edit` button besides user. This goes to the user's page under the `MyStudy` project. Select which roles to be assigned to the user and click the `Save` button.
 
 ![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/edit-project-member.png)
 
@@ -141,9 +141,9 @@ Clicking this button forwards the user to the its organization. For example, if 
 
 ![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/org-page.png)
 
-Click on the target project. For example, `FwongStudy` https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy. This forwards to the project's details page where all project's workspaces are listed.
+Click on the target project. For example, `MyStudy` https://demo.mediciaresearch.cloud/mediciaaiorg2/MyStudy. This forwards to the project's details page where all project's workspaces are listed.
 
-If the user is authorized to create workspaces, then it will find the `Create a new workspace ↗`. button there. Click on it: https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy/new-workspace/
+If the user is authorized to create workspaces, then it will find the `Create a new workspace ↗`. button there. Click on it: https://demo.mediciaresearch.cloud/mediciaaiorg2/MyStudy/new-workspace/
 
 ![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/project-details-page.png)
 
@@ -157,9 +157,9 @@ Then click the `Create` button.
 
 ![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/create-new-workspace.png)
 
-After the workspace is created, then go back to the project page where you will find the new workspace listed: https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy
+After the workspace is created, then go back to the project page where you will find the new workspace listed: https://demo.mediciaresearch.cloud/mediciaaiorg2/MyStudy
 
-Then click the created workspace: https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy/project2workspace
+Then click the created workspace: https://demo.mediciaresearch.cloud/mediciaaiorg2/MyStudy/project2workspace
 
 ![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/workspace-details-page.png)
 
@@ -184,9 +184,9 @@ As a summary, if the PAT is not saved in the database, then the user have to ent
 
 ### 9. Run Jobs
 
-Once the PAT is given, then the user can click the `Run Jobs` button in the workspace page. For example, https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy/project2workspace.
+Once the PAT is given, then the user can click the `Run Jobs` button in the workspace page. For example, https://demo.mediciaresearch.cloud/mediciaaiorg2/MyStudy/project2workspace.
 
-This opens this page (https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy/project2workspace/run-jobs/) which lists all the actions in the project according to the `project.yaml` file in the GitHub repository.
+This opens this page (https://demo.mediciaresearch.cloud/mediciaaiorg2/MyStudy/project2workspace/run-jobs/) which lists all the actions in the project according to the `project.yaml` file in the GitHub repository.
 
 ![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/run-jobs.png)
 
@@ -196,7 +196,7 @@ Check whether notifications should be sent to the email once each job is complet
 
 Then click `Submit`. Now, the jobs will be submitted from the job server to the job runner to be executed.
 
-To check the status of the submitted jobs, go to the workspace logs page. For example, https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy/project2workspace/logs/?next=/gad. A job is successfully completed if a green mark is shown.
+To check the status of the submitted jobs, go to the workspace logs page. For example, https://demo.mediciaresearch.cloud/mediciaaiorg2/MyStudy/project2workspace/logs/?next=/gad. A job is successfully completed if a green mark is shown.
 
 ### 10. View Results
 
@@ -204,7 +204,7 @@ Once the jobs are completed successfully, go back to the workspace page. Under t
 
 ![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/workspace-details-page.png)
 
-For example, this is the list of outputs in the `genetic` workspace: https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy/genetic/releases. You can view the released outputs online or download them.
+For example, this is the list of outputs in the `genetic` workspace: https://demo.mediciaresearch.cloud/mediciaaiorg2/MyStudy/genetic/releases. You can view the released outputs online or download them.
 
 ![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/released-outputs.png)
 
@@ -222,7 +222,7 @@ Click the `Delete` button besides each file to delete it from the workspace.
 
 ## View the Released Files
 
-Click on the `View` button besides each release to go to the release page. This is an example. The URL for this release is https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy/genetic/releases/01G76141JS40HTVN8XECCC87CC. The code at the end of the URL `01G76141JS40HTVN8XECCC87CC` represents the release ID.
+Click on the `View` button besides each release to go to the release page. This is an example. The URL for this release is https://demo.mediciaresearch.cloud/mediciaaiorg2/MyStudy/genetic/releases/01G76141JS40HTVN8XECCC87CC. The code at the end of the URL `01G76141JS40HTVN8XECCC87CC` represents the release ID.
 
 ![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/view-released-file.png)
 
@@ -277,7 +277,7 @@ Click on the `Show jobs` button at the right of each row to show the jobs handle
 
 ![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/show-jobs.png)
 
-Also click the `View` button in gray to see more information about the job request. For example, click the `View` button of the job request with ID `lmu6z6wzhhdvqkgj` goes to this page: https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy/test_workspace/243/lmu6z6wzhhdvqkgj. 
+Also click the `View` button in gray to see more information about the job request. For example, click the `View` button of the job request with ID `lmu6z6wzhhdvqkgj` goes to this page: https://demo.mediciaresearch.cloud/mediciaaiorg2/MyStudy/test_workspace/243/lmu6z6wzhhdvqkgj. 
 
 ![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/job-request-description1.png)
 
@@ -289,7 +289,7 @@ This page has 3 main sections:
 
 ![](https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/job-request-description.png)
 
-The last entry in the `Config` section ([243 by ahmedfgad](https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy/test_workspace/243/)) is a link to the job request. This is the page of the job request with ID `243`. 
+The last entry in the [`Config` section ](https://demo.mediciaresearch.cloud/mediciaaiorg2/MyStudy/test_workspace/243) is a link to the job request. This is the page of the job request with ID `243`. 
 
 At the top, there are 3 buttons:
 
@@ -337,7 +337,7 @@ Below the workspace name, click the `View logs` button. It shows the logs for th
 
 ## User Roles
 
-The user can view the members of the project and all of their roles from the project page. For example, this is the page for the `FwongStudy` project.
+The user can view the members of the project and all of their roles from the project page. For example, this is the page for the `MyStudy` project.
 
 Note that the `Repos` section shows the GitHub repositories associated with all the workspaces existing in this project.
 

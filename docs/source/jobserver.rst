@@ -156,17 +156,17 @@ organization. For example, the next image shows that the
 
 |image8|
 
-For example, the current user is a member only in the ``FwongStudy``
+For example, the current user is a member only in the ``MyStudy``
 project. After clicking this project, it goes to the project's page:
-https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy
+https://demo.mediciaresearch.cloud/mediciaaiorg2/MyStudy
 
 |image9|
 
 Given that the current user has the ``Project Coordinator`` role, then
 this user can edit the members. Just click the ``Settings`` button which
 goes to this page
-(https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy/settings)
-as in the next image. There the user can change the project's settings
+(https://demo.mediciaresearch.cloud/mediciaaiorg2/MyStudy/settings) as
+in the next image. There the user can change the project's settings
 including:
 
 1. Project name
@@ -177,9 +177,9 @@ including:
 
 |image10|
 
-Let's click the ``Edit`` button besides the ``fwong07`` user. This goes
-to the user's page under the ``FwongStudy`` project. Select which roles
-to be assigned to the user and click the ``Save`` button.
+Let's click the ``Edit`` button besides user. This goes to the user's
+page under the ``MyStudy`` project. Select which roles to be assigned to
+the user and click the ``Save`` button.
 
 |image11|
 
@@ -245,14 +245,13 @@ https://demo.mediciaresearch.cloud/mediciaaiorg2
 
 |image13|
 
-Click on the target project. For example, ``FwongStudy``
-https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy. This
-forwards to the project's details page where all project's workspaces
-are listed.
+Click on the target project. For example, ``MyStudy``
+https://demo.mediciaresearch.cloud/mediciaaiorg2/MyStudy. This forwards
+to the project's details page where all project's workspaces are listed.
 
 If the user is authorized to create workspaces, then it will find the
 ``Create a new workspace ↗``. button there. Click on it:
-https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy/new-workspace/
+https://demo.mediciaresearch.cloud/mediciaaiorg2/MyStudy/new-workspace/
 
 |image14|
 
@@ -272,10 +271,10 @@ Then click the ``Create`` button.
 
 After the workspace is created, then go back to the project page where
 you will find the new workspace listed:
-https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy
+https://demo.mediciaresearch.cloud/mediciaaiorg2/MyStudy
 
 Then click the created workspace:
-https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy/project2workspace
+https://demo.mediciaresearch.cloud/mediciaaiorg2/MyStudy/project2workspace
 
 |image16|
 
@@ -323,10 +322,10 @@ have to enter it each time a job is to be run.
 
 Once the PAT is given, then the user can click the ``Run Jobs`` button
 in the workspace page. For example,
-https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy/project2workspace.
+https://demo.mediciaresearch.cloud/mediciaaiorg2/MyStudy/project2workspace.
 
 This opens this page
-(https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy/project2workspace/run-jobs/)
+(https://demo.mediciaresearch.cloud/mediciaaiorg2/MyStudy/project2workspace/run-jobs/)
 which lists all the actions in the project according to the
 ``project.yaml`` file in the GitHub repository.
 
@@ -343,7 +342,7 @@ server to the job runner to be executed.
 
 To check the status of the submitted jobs, go to the workspace logs
 page. For example,
-https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy/project2workspace/logs/?next=/gad.
+https://demo.mediciaresearch.cloud/mediciaaiorg2/MyStudy/project2workspace/logs/?next=/gad.
 A job is successfully completed if a green mark is shown.
 
 .. _10-view-results:
@@ -359,7 +358,7 @@ jobs.
 |image21|
 
 For example, this is the list of outputs in the ``genetic`` workspace:
-https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy/genetic/releases.
+https://demo.mediciaresearch.cloud/mediciaaiorg2/MyStudy/genetic/releases.
 You can view the released outputs online or download them.
 
 |image22|
@@ -386,7 +385,7 @@ View the Released Files
 
 Click on the ``View`` button besides each release to go to the release
 page. This is an example. The URL for this release is
-https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy/genetic/releases/01G76141JS40HTVN8XECCC87CC.
+https://demo.mediciaresearch.cloud/mediciaaiorg2/MyStudy/genetic/releases/01G76141JS40HTVN8XECCC87CC.
 The code at the end of the URL ``01G76141JS40HTVN8XECCC87CC`` represents
 the release ID.
 
@@ -477,7 +476,7 @@ row. The new table shows the following information:
 Also click the ``View`` button in gray to see more information about the
 job request. For example, click the ``View`` button of the job request
 with ID ``lmu6z6wzhhdvqkgj`` goes to this page:
-https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy/test_workspace/243/lmu6z6wzhhdvqkgj.
+https://demo.mediciaresearch.cloud/mediciaaiorg2/MyStudy/test_workspace/243/lmu6z6wzhhdvqkgj.
 
 |image34|
 
@@ -491,8 +490,8 @@ This page has 3 main sections:
 
 |image35|
 
-The last entry in the ``Config`` section (`243 by
-ahmedfgad <https://demo.mediciaresearch.cloud/mediciaaiorg2/fwongstudy/test_workspace/243/>`__)
+The last entry in the ```Config``
+section <https://demo.mediciaresearch.cloud/mediciaaiorg2/MyStudy/test_workspace/243>`__
 is a link to the job request. This is the page of the job request with
 ID ``243``.
 
@@ -565,7 +564,7 @@ User Roles
 ----------
 
 The user can view the members of the project and all of their roles from
-the project page. For example, this is the page for the ``FwongStudy``
+the project page. For example, this is the page for the ``MyStudy``
 project.
 
 Note that the ``Repos`` section shows the GitHub repositories associated
@@ -615,7 +614,7 @@ and their roles are listed.
 .. |image35| image:: https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/job-request-description.png
 .. |image36| image:: https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/job-request-page.png
 .. |image37| image:: https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/job-request-page2.png
-.. |image38| image:: https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/view project YAML file.png
+.. |image38| image:: https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/viewprojectYAMLfile.png
 .. |image39| image:: https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/filter-logs.png
 .. |image40| image:: https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/workspace-details-page.png
 .. |image41| image:: https://raw.githubusercontent.com/ahmed-rcloud/docs/refs/heads/main/docs/source/workspace-logs.png
